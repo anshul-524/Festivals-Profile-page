@@ -129,14 +129,22 @@
     width: 833px !important;
 }
 
-.ml-47 {
-    margin-left: 47px;
+.ml-20 {
+    margin-left: 20px;
 }
 
-.mt-47 {
-    margin-top: 47px;
+.mt-35 {
+    margin-top: 35px;
 }
-
+.mt20{
+    margin-top: 20px;
+}
+.mb24{
+    margin-bottom: 24px;
+}
+.mt24{
+    margin-top: 24px;
+}
 .remove-text {
     margin-left: 20px;
     margin-top: 8px;
@@ -796,7 +804,7 @@
 }
 
 
-@media (-width:1200px) {
+@media (max-width:1200px) {
 
     .profile-text-box {
         width: 1193px !important;
