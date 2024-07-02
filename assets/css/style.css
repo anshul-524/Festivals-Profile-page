@@ -129,9 +129,6 @@
     width: 833px !important;
 }
 
-.ml-20 {
-    margin-left: 20px;
-}
 
 .mt-35 {
     margin-top: 35px;
@@ -327,7 +324,9 @@
 
 
 
-
+.view-Box{
+    margin-top: 50px;
+}
 
 
 /* ---------------footer----------------- */
@@ -674,9 +673,9 @@
     width: 100% !important;
     display: flex !important;
 }
-
-
-
+.image2{
+    margin-top: 50px;
+}
 /* -------------------------responsive------------------------- */
 
 
@@ -801,13 +800,4 @@
 
 
 
-}
-
-
-@media (max-width:1200px) {
-
-    .profile-text-box {
-        width: 1193px !important;
-
-    }
 }
