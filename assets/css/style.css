@@ -67,10 +67,10 @@
 .post-com {
     width: 208px;
     height: 56px;
-    background-color: var(--white);
+    background: var(--primary);
     border: 1px solid var(--primary);
     border-radius: 36px;
-    color: var(--primary);
+    color: var(--white);
     font-family: var(--poppins);
 
     font-size: var(--fs-20);
@@ -97,8 +97,8 @@
 }
 
 .post-com:hover {
-    background-color: var(--primary);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--primary);
 
 }
 
@@ -133,25 +133,27 @@
 .mt-35 {
     margin-top: 35px;
 }
-.mt20{
+
+.mt20 {
     margin-top: 20px;
 }
-.mb24{
+
+.mb24 {
     margin-bottom: 24px;
 }
-.mt24{
+
+.mt24 {
     margin-top: 24px;
 }
+
 .remove-text {
     margin-left: 20px;
     margin-top: 8px;
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
-.remove {
-    margin-left: 5px;
-}
 
 .mb-0 {
     margin: 0;
@@ -324,7 +326,7 @@
 
 
 
-.view-Box{
+.view-Box {
     margin-top: 50px;
 }
 
@@ -673,9 +675,11 @@
     width: 100% !important;
     display: flex !important;
 }
-.image2{
+
+.image2 {
     margin-top: 50px;
 }
+
 /* -------------------------responsive------------------------- */
 
 
